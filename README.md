@@ -29,9 +29,7 @@ A modern, responsive portfolio website built with Next.js, Tailwind CSS, and sha
 ### Installation
 
 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/michael-ehmke-portfolio.git
-cd michael-ehmke-portfolio
+test
 ```
 
 2. Install dependencies
