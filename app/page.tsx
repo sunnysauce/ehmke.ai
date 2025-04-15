@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import { Navbar } from "@/components/ui/navbar";
 import { SocialLinks } from "@/components/ui/social-links";
-import { ShareButton } from "@/components/ui/share-button";
 
 export default function Home() {
   return (

@@ -56,7 +56,7 @@ export function ContactForm() {
         <div className="bg-green-50 border border-green-200 rounded-md p-4 text-center">
           <h3 className="text-lg font-medium text-green-800 mb-2">Message Sent!</h3>
           <p className="text-green-700">
-            Thank you for reaching out. I'll get back to you as soon as possible.
+            Thank you for reaching out. I&apos;ll get back to you as soon as possible.
           </p>
           <Button 
             variant="outline" 
