@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Michael Ehmke Portfolio
+
+A modern, responsive portfolio website built with Next.js, Tailwind CSS, and shadcn/ui. This website showcases Michael Ehmke's professional background, experience, projects, and contact information.
+
+## Features
+
+- Responsive design that works on all devices
+- Modern UI with smooth animations
+- Server-side rendering with Next.js
+- Accessible UI components from shadcn/ui
+- Contact form with client-side validation
+- Social media integration and sharing capabilities
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework for server-rendered applications
+- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [shadcn/ui](https://ui.shadcn.com/) - Re-usable UI components
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 16.8.0 or newer
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/michael-ehmke-portfolio.git
+cd michael-ehmke-portfolio
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn
+```
+
+3. Start the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The easiest way to deploy this website is using the [Vercel Platform](https://vercel.com/) from the creators of Next.js.
 
-## Learn More
+1. Push your code to a GitHub repository
+2. Import your project into Vercel
+3. Vercel will detect that you're using Next.js and set up the build configuration for you
 
-To learn more about Next.js, take a look at the following resources:
+## Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To customize the content of the portfolio:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Edit the personal information in each section of the `app/page.tsx` file
+2. Replace placeholder images with your own images in the public directory
+3. Update the contact information with your own details
+4. Modify the projects section to showcase your own work
+5. Update social media links in the `components/ui/social-links.tsx` file
+6. Add your own OpenGraph image for social sharing:
+   - Create a 1200x630 image named `og-image.jpg`
+   - Place it in the `/public` directory
+   - This image will be used when your site is shared on social media
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the [MIT License](LICENSE).
