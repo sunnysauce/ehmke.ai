@@ -126,3 +126,8 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
+
+/* Set html and body background to black for overscroll */
+html, body {
+  background-color: black;
+}
