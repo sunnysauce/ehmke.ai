@@ -121,13 +121,27 @@
   }
 }
 
-/* Text selection styling */
+/* Print Styles */
+@media print {
+  body {
+    @apply bg-white text-black;
+  }
+  .min-h-screen {
+    min-height: auto;
+  }
+  .print:hidden {
+    display: none;
+  }
+  /* Hide buttons/navigation elements in print */
+  button, nav, .no-print {
+    display: none;
+  }
+}
+
 ::selection {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
 
-/* Set html and body background to black for overscroll */
-html, body {
-  background-color: black;
-}
+/* Remove the black background override on html/body to respect the theme */
+/* html, body { background-color: black; } */
