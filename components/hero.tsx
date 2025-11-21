@@ -26,8 +26,7 @@ export function Hero() {
           </p>
           
           <p className="text-lg text-muted-foreground/80 max-w-xl mx-auto">
-            Bridging the gap between technical feasibility and business strategy. 
-            Expert in turning concepts into scalable SaaS products.
+            May I build for you?
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 pt-8">
