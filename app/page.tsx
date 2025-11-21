@@ -21,6 +21,7 @@ export default function Home() {
             <a href="mailto:michael@ceptly.com" className="hover:text-foreground transition-colors">Email</a>
             <a href="https://linkedin.com/in/michaelehmke" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
             <a href="https://github.com/sunnysauce" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">GitHub</a>
+            <a href="https://x.com/ehmkemichael" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">X (Twitter)</a>
           </div>
           <div className="mt-8 w-full">
              <Image

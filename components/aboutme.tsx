@@ -15,7 +15,7 @@ export function AboutMe() {
       >
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
           <div className="flex justify-center lg:justify-start order-2 lg:order-1">
-            <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden border-4 border-[#654A2A]">
+            <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden">
               <Image
                 src="/portfolio.png"
                 alt="Michael Ehmke"
