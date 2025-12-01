@@ -31,9 +31,9 @@ export function Hero() {
 
           <div className="flex flex-wrap justify-center gap-4 pt-8">
             <Button size="lg" className="rounded-full px-8" asChild>
-              <a href="mailto:michael@ceptly.com">
+              <a href="mailto:michael@ehmke.ai">
                 <Mail className="mr-2 h-5 w-5" />
-                michael@ceptly.com
+                michael@ehmke.ai
               </a>
             </Button>
             <Button variant="outline" size="lg" className="rounded-full px-8" onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}>

@@ -14,10 +14,10 @@ export function AboutMe() {
         className="container mx-auto px-4 md:px-6"
       >
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-          <div className="flex justify-center lg:justify-start order-2 lg:order-1">
+          <div className="flex justify-center lg:justify-center order-2 lg:order-1">
             <div className="relative w-64 h-64 md:w-80 md:h-80 overflow-hidden">
               <Image
-                src="/portfolio.png"
+                src="/me.png"
                 alt="Michael Ehmke"
                 fill
                 className="object-cover"

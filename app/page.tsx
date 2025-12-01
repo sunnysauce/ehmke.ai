@@ -18,7 +18,7 @@ export default function Home() {
         <Certifications />
         <footer className="text-center text-sm text-muted-foreground border-t pt-8">
           <div className="flex justify-center gap-6 mb-4">
-            <a href="mailto:michael@ceptly.com" className="hover:text-foreground transition-colors">Email</a>
+            <a href="mailto:michael@ehmke.ai" className="hover:text-foreground transition-colors">Email</a>
             <a href="https://linkedin.com/in/michaelehmke" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
             <a href="https://github.com/sunnysauce" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">GitHub</a>
             <a href="https://x.com/ehmkemichael" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">X (Twitter)</a>
