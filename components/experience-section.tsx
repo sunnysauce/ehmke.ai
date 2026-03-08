@@ -11,7 +11,7 @@ export function ExperienceSection() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <ExperienceCard 
-          title="CEO & Founder"
+          title="Founder"
           company="Ceptly"
           companyUrl="https://ceptly.com"
           //caseStudyUrl="/ceptly"
