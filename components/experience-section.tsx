@@ -52,7 +52,6 @@ export function ExperienceSection() {
           location="Dallas, TX"
           index={2}
           description={[
-            "Facilitated a successful company sale.",
             "Owned the strategy of product/services, websites, & applications.",
             "Managed cross-functional teams to deliver high-impact features."
           ]}
