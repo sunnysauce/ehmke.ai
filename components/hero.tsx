@@ -22,7 +22,7 @@ export function Hero() {
           </h1>
           
           <p className="text-xl sm:text-3xl text-muted-foreground font-medium max-w-2xl mx-auto">
-            Senior Product Manager & Startup Founder
+            Product Manager & Startup Co-Founder
           </p>
           
           <p className="text-lg text-muted-foreground/80 max-w-xl mx-auto">
