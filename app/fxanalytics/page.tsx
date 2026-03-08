@@ -17,7 +17,7 @@ export default function FXAnalyticsPage() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Chief Product Officer</h2>
           <p className="text-lg">
-            Owned the strategy of product/services, websites, & applications.
+            Owned the strategy of websites, & applications.
             Managed cross-functional teams to deliver high-impact features.
           </p>
         </section>
