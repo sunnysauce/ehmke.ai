@@ -52,7 +52,7 @@ export function ExperienceSection() {
           location="Dallas, TX"
           index={2}
           description={[
-            "Owned the strategy of product/services, websites, & applications.",
+            "Owned the strategy of websites, & applications.",
             "Managed cross-functional teams to deliver high-impact features."
           ]}
         />
