@@ -10,7 +10,7 @@ export function ExperienceSection() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <ExperienceCard 
+        {/*<ExperienceCard 
           title="Founder"
           company="Ceptly"
           companyUrl="https://ceptly.com"
@@ -24,7 +24,7 @@ export function ExperienceSection() {
             "Focusing on true ideation help and requirement creation to reduce implementation time.",
             "Leading all aspects of product vision, strategy, and technical architecture."
           ]}
-        />
+        />*/}
         
         <ExperienceCard 
           title="Chief Technology Officer & Co-founder"
