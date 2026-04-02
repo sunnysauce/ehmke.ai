@@ -29,7 +29,7 @@ export function ExperienceSection() {
         <ExperienceCard 
           title="Chief Technology Officer & Co-founder"
           company="Dark Weather"
-          companyUrl="https://darkweather.com"
+          companyUrl="https://darkweather.ai"
           //caseStudyUrl="/darkweather"
           imageUrl="/darkweather.png"
           period="October 2025 - Present"
