@@ -26,7 +26,7 @@ export function ExperienceSection() {
           ]}
         />*/}
         
-        <ExperienceCard 
+        {/*<ExperienceCard 
           title="Chief Technology Officer & Co-founder"
           company="Dark Weather"
           companyUrl="https://darkweather.ai"
@@ -40,7 +40,7 @@ export function ExperienceSection() {
             "Created branding guidelines and conceived business strategy with the founder.",
             "Overseeing technical implementation and product roadmap."
           ]}
-        />
+        />*/}
 
         <ExperienceCard 
           title="Chief Product Officer"
@@ -48,7 +48,7 @@ export function ExperienceSection() {
           companyUrl="https://fxanalytics.com"
           //caseStudyUrl="/fxanalytics"
           imageUrl="/fxanalytics.png"
-          period="August 2024 - October 2025"
+          period="August 2024 - Present"
           location="Dallas, TX"
           index={2}
           description={[
