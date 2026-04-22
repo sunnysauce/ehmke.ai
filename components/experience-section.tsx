@@ -62,22 +62,6 @@ export function ExperienceSection() {
         />
 
         <ExperienceCard 
-          title="Web Product Manager"
-          company="FX Analytics"
-          companyUrl="https://fxanalytics.com"
-          //caseStudyUrl="/fxanalytics"
-          imageUrl="/fxanalytics.png"
-          period="June 2024 - August 2024"
-          location="Dallas, TX"
-          index={3}
-          description={[
-            "Founding member who selected the tech stack and assembled the first development team.",
-            "Oversaw software development for a customer-facing app and internal systems.",
-            "Established agile development processes."
-          ]}
-        />
-
-        <ExperienceCard 
           title="Software Development Project Manager II"
           company="All My Sons"
           //caseStudyUrl="/allmysons"
@@ -86,8 +70,8 @@ export function ExperienceSection() {
           location="Carrollton, TX"
           index={4}
           description={[
-            "Oversaw software development for the company's custom CMS and various applications.",
-            "Coordinated between stakeholders and development teams to ensure timely delivery."
+             "Oversaw development of a custom in-house CMS supporting 250+ internal users across 60+ franchise locations nationwide.",
+             "Led a team of 2 developers and 1 designer; coordinated between stakeholders and development teams to manage scope, timelines, and delivery quality."
           ]}
         />
 
@@ -100,8 +84,8 @@ export function ExperienceSection() {
           location="Carrollton, TX"
           index={5}
           description={[
-            "Managed application testing, debugging, & team of UAT users.",
-            "Transitioned from sales to support the development team; directed developers abroad."
+            "Transitioned from a top sales role into the development team; managed UAT testing cycles and directed offshore developers.",
+            "Bridged the gap between business operations and technical teams, translating requirements into actionable development tasks"
           ]}
         />
       </div>
