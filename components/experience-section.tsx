@@ -52,8 +52,15 @@ export function ExperienceSection() {
           location="Dallas, TX"
           index={2}
           description={[
-            "Owned the strategy of websites, & applications.",
-            "Managed cross-functional teams to deliver high-impact features."
+            "Led product strategy and execution across a custom CRM and client-facing portfolio application serving 650+ users."
+            "Built and managed a cross-functional team of 2 engineers, 2 designers, and 1 project manager from the ground up."
+            "Architected the internal CRM to support client specialists and developers, replacing manual workflows for a 6-person ops
+            team."
+            "Owned the full product lifecycle from requirements and design (Figma) through development, QA, and deployment on
+            Vercel and AWS."
+            "Founding team member; selected the initial tech stack (Next.js, TypeScript, MongoDB, AWS) and recruited the first
+            development team."
+            "Established agile development processes and delivery workflows from scratch."
           ]}
         />
 
